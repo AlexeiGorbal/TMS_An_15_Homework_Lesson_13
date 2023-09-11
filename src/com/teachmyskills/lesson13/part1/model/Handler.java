@@ -3,7 +3,7 @@ package com.teachmyskills.lesson13.part1.model;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
-public class stream_Methods {
+public class Handler {
     public static void removesDuplicates() {
         System.out.println("Collection without duplicates: " + arrayList().stream().distinct().toList());
     }
